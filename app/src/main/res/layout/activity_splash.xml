@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlaco"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.jose.prueba_t2_interfaces.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/iv_splash_fox"
+            android:src="@drawable/fox"
+            app:civ_shadow_radius="10"
+            style="@style/imgcirfox" />
+
+        <TextView
+            android:id="@+id/tv_splash_fox"
+            android:text="MrFox"
+            style="@style/TextoFox" />
+    </LinearLayout>
+
+</LinearLayout>
